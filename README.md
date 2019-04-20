@@ -8,19 +8,15 @@ The data is originzed as standard NMEA GPS message.
 Global Positioning System Fix Data  
 
 Name									Example Data	Description  
-Sentence Identifier						$GPGGA			Global Positioning System Fix Data  
-Time(Just for reference)				170834			17:08:34 Z  
-Latitude								4124.8963, N  	  
-Longitude								08151.6838, W  	
-Fix Quality:  
-- 0 = Invalid  
-- 1 = GPS fix  
-- 2 = DGPS fix	1	Data is from a GPS fix  
-
-Number of Satellites					05				5 Satellites are in view  
-Horizontal Dilution of Precision (HDOP)	1.5				Relative accuracy of horizontal position  
-Altitude								280.2, M		280.2 meters above mean sea level  
-Height of geoid above WGS84 ellipsoid	-34.0, M		-34.0 meters  
-Time since last DGPS update	blank		No 	last update  
-DGPS reference station id	blank	No station id  
-Checksum								*75				Used by program to check for transmission errors  
+1.Sentence Identifier						$GPGGA			Global Positioning System Fix Data  
+2.Time(Just for reference)				170834			17:08:34 Z  
+3.Latitude								4124.8963, N  	  
+4.Longitude								08151.6838, W  	
+5.Fix Quality:  
+6.Number of Satellites					05				5 Satellites are in view  
+7.Horizontal Dilution of Precision (HDOP)	1.5				Relative accuracy of horizontal position  
+8.Altitude								280.2, M		280.2 meters above mean sea level  
+9.Height of geoid above WGS84 ellipsoid	-34.0, M		-34.0 meters  
+10.Time since last DGPS update	blank		No 	last update  
+11.DGPS reference station id	blank	No station id  
+12.Checksum								*75				Used by program to check for transmission errors  
